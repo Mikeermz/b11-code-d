@@ -1,0 +1,27 @@
+
+/* Etiqueta de HTML */
+
+body {
+  background-color: blue;
+}
+
+h1 {
+  font-size: 66px;
+  background-color: red;
+}
+
+h2 {
+  color: white !important;
+}
+
+nav > ul > li ::after {
+  background-color: black;
+}
+
+.mi-clase {
+  background-color: white;
+}
+
+#mi-id{
+  background-color: indianred;
+}
