@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  height: 1000px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.padre, .madre {
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.padre {
+  border: 5px solid blue;
+  flex-direction: column;
+}
+
+.madre {
+  border: 5px solid red;
+}
+
+.hijo, .hija {
+  width: 30%;
+  height: 30%;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hija {
+  border: 2px solid plum;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.nieto {
+  border: 2px solid magenta;
+  width: 20%;
+  height: 20%;
+}
