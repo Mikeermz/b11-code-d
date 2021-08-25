@@ -1,0 +1,14 @@
+.container {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 200px 300px 400px;
+  grid-gap: 20px;
+  grid-auto-rows: 60px;
+  grid-auto-columns: 200px;
+  grid-auto-flow: column;
+}
+
+.item {
+  border: 2px solid blue;
+}
