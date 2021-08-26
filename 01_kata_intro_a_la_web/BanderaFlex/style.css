@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+
+
+.izquierdoSuperior, .izquierdoInferior, .derechaSuperior , .derechaInferior{
+    background-color: white;
+}
+
+.cuadroIzquierdo, .cuadroDerecha{
+    background-color: #002868;
+}
+.cuadroIzquierdo{
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.izquierdoSuperior{
+    /* border: 2px solid rgb(7, 23, 250); */
+    width: 80%;
+    height: 40%;
+}
+
+.izquierdoInferior{
+    /* border: 2px solid rgb(3, 241, 3); */
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rojoIzquierda{
+    background-color: #EF2B2D;
+    width: 80%;
+    height: 80%;
+}
+.rojoDerecha{
+    background-color: #EF2B2D;
+    width: 90%;
+    height: 80%;
+}
+
+
+.cuadroDerecha{
+    /* border: 2px solid rgba(182, 14, 14, 0.507); */
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.derechaSuperior, .derechaInferior{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.derechaSuperior{
+    /* border: 2px solid rgb(124, 248, 8); */
+    width: 90%;
+    height: 40%;
+}
+
+.derechaInferior{
+    /* border: 2px solid rgb(8, 120, 248); */
+    width: 90%;
+    height: 40%;
+    align-items: flex-end;
+}
