@@ -1,0 +1,45 @@
+/* body {
+  width: 1000px;
+  font-size: 14px;
+}
+.relative {
+  width: 10vw;
+  border: 2px solid blue;
+  font-size: 1.4em;
+  font-size: 30px;
+}
+
+.second {
+  width: 1em;
+}
+
+.absolute {
+  margin-top: 10%;
+  width: 10vh;
+  border: 2px solid red;
+} */
+
+/* body {
+  background-color: red;
+} */
+
+@media screen and (min-width: 320px) {
+  body{
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 480px) {
+  body{
+    background-color: green;
+  }
+}
+@media screen and (min-width: 768px) {
+  body{
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: cornflowerblue;
+  }
+}
