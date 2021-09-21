@@ -1,0 +1,13 @@
+.main-container{
+    padding-top: 25px;
+}
+.container{
+    padding-top: 20px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        /* max-width: 1140px;
+        background-color:red */
+    }
+}
