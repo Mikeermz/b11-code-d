@@ -61,4 +61,20 @@ var years = [1992, 1994, 2000, 2001, 2003]
 var yearsTwo = [2010, 2011, 2000, 2001, 2003]
 
 var twistArr = secondCars.concat( years,yearsTwo )
-console.log(twistArr)
+console.log( twistArr )
+
+//
+var index = 0
+while (index < 11) {
+    console.log( index )
+    index++
+    //index = index + 1    
+}
+
+var container = [];
+var userInput;
+while (!(userInput=="")) {
+    userInput = prompt( "Ingresa cualquier caracter" );
+    container.push(userInput)
+}
+console.log('Este es tu array: ' + container)
