@@ -1,3 +1,4 @@
+// Objetos literales
 const ayudanteDeSanta = {
   raza: 'Galgo',
   color: 'cafe',
