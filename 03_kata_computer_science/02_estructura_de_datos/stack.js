@@ -21,40 +21,40 @@
 // // Size 
 // console.log(PILA.length);
 
-// class Stack {
-//   constructor() {
-//     this.count = 0;
-//     this.storage = {};
-//   }
+class Stack {
+  constructor() {
+    this.count = 0;
+    this.storage = {};
+  }
 
-//   push(nuevoElemento) {
-//     this.count ++;
-//     this.storage[this.count]  = nuevoElemento;
-//   };
+  push(nuevoElemento) {
+    this.count ++;
+    this.storage[this.count]  = nuevoElemento;
+  };
 
-//   pop(){
-//     if (this.count === 0) return null
+  pop(){
+    if (this.count === 0) return null
 
-//     const borrarElemento = this.storage[this.count];
-//     delete this.storage[this.count];
-//     this.count--;
-//     return borrarElemento;
-//   };
+    const borrarElemento = this.storage[this.count];
+    delete this.storage[this.count];
+    this.count--;
+    return borrarElemento;
+  };
 
-//   peek(){
-//     if (this.count === 0) return null
+  peek(){
+    if (this.count === 0) return null
 
-//     return console.log(this.storage[this.count]);
-//   };
+    return console.log(this.storage[this.count]);
+  };
 
-//   print(){
-//     return console.log(this.storage);
-//   }
+  print(){
+    return console.log(this.storage);
+  }
 
-//   size() {
-//     return console.log(Object.keys(this.storage).length)
-//   }
-// }
+  size() {
+    return console.log(Object.keys(this.storage).length)
+  }
+}
 
 // const miPila = new Stack()
 // // console.log(miPila);

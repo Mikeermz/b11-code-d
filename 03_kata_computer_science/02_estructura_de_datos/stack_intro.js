@@ -31,7 +31,7 @@ console.log('Ultima posicion sin sacarlo', ultimaPosicionDentro(miArreglo))
 // Retorna el numero de elementos que contiene la pila 
 console.log(miArreglo.length)
 
-// Pring
+// Print
 // console.log
 // Mostrar el contenido de la pila 
 console.log('esta es mi pila', miArreglo)
