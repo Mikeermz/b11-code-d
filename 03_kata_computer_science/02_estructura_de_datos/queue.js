@@ -65,3 +65,9 @@ console.log('size', miColecion.size())
 console.log('print', miColecion.print())
 
 console.log(miColecion.isEmpty())
+
+
+const miArray = [1,2,3,4]
+
+console.log('object')
+console.log(miArray[1,2,3])
