@@ -35,3 +35,5 @@ console.log(miArreglo.length)
 // console.log
 // Mostrar el contenido de la pila 
 console.log('esta es mi pila', miArreglo)
+
+console.log('hola desde la terminal uso el demonio de node 😈')
