@@ -1,0 +1,21 @@
+{
+  "name": "petciion_google",
+  "version": "1.0.0",
+  "description": "Petecion a google",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "request",
+    "google"
+  ],
+  "author": "Mikee",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
