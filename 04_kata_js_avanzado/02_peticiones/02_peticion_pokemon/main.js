@@ -34,6 +34,8 @@ const getPokemonByName = (pokemon) => {
 const getAuthorByBook = (book) => {
   const URL = `http://openlibrary.org/search.json?q=${book}`;
 
+  console.log(URL)
+
   request.get(URL, (error, response, body) => {
     const { docs } = JSON.parse(body);
 
@@ -42,11 +44,9 @@ const getAuthorByBook = (book) => {
       return null;
     }
 
-    const [ firstBook ] = docs;
+    const [{author_name: firstAuthor}] = docs;
     
-    const { author_name } = firstBook;
-
-    console.log({ authors: author_name})
+    console.log({ authors: firstAuthor})
     
   }); 
 };
@@ -69,8 +69,29 @@ const getBooksByAuthor= (author) => {
     
     const books =  docs.map((book) => book.title);
 
+    const [...[{title}]] = docs;
+
+    console.log({title})
     console.log({books})
   }); 
 };
 
 // getBooksByAuthor('asimov');
+
+var options = {
+  url: `http://openlibrary.org/search.json?author=asimov}`,
+  headers: {
+    'User-Agent': 'request'
+  }
+};
+
+function callback(error, response, body) {
+  console.log(body)
+  if (!error && response.statusCode == 200) {
+    var info = JSON.parse(body);
+    console.log(info.stargazers_count + " Stars");
+    console.log(info.forks_count + " Forks");
+  }
+}
+
+const h = request(options, callback)
