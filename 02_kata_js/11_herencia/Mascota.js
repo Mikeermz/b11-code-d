@@ -1,18 +1,17 @@
-class Mascota{
-    
-    constructor(patas,nombre){
-        this.patas = patas;
-        this.cerebro = true;
-        this.nombre = nombre;
-        console.log('Se creo la Mascota');
-    }
+// Creamos una superclase
+class Mascota {
+  constructor(patas, nombre) {
+    this.patas = patas;
+    this.nombre = nombre;
+    this.cerebro = true;
+    console.log('se creo la mascota');
+  }
 
-    getNombre(){
-        return this.nombre
-    }
-}
+  getNombre() {
+    return this.nombre
+  }
+};
 
-//Prepara la class Mascota para poder ser llamada en otro archivo 
-module.exports = {
-    Mascota
-}
+
+// Preparo la clase mascota para poder ser llamada desde otro archivo.
+module.exports = { Mascota };

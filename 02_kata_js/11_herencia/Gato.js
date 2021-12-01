@@ -1,19 +1,16 @@
-const {Mascota} = require('./Mascota')
-//Clase hija de Mascota
-class Gato extends Mascota{
-    
-    constructor( vidas, nombre ) {
-        
-        super(4,nombre)
-        console.log('Se creo el Gato');
-        this.vidas = vidas
-    }
+const { Mascota } = require('./Mascota');
 
-    getVidas(){
-        return this.vidas
-    }
+// Clase hija de mascota
+
+class Gato extends Mascota {
+  constructor(vidas, nombre) {
+    super(4, nombre);
+    this.raza = vidas;
+  }
+
+  getVidas() {
+    return this.vidas;
+  }
 }
 
-module.exports = {
-    Gato
-}
+module.exports = { Gato };

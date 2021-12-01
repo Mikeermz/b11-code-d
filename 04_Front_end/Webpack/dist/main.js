@@ -1,0 +1,1 @@
+(()=>{"use strict";var o;console.log((o=25,console.log("this is your age"+o))),console.log((o=>{var l=[];for(let e=0,t=1;e<o.length;e++,t++)l[e]=o.substring(e,t);var e=[],t="",s=Math.pow(2,l.length);for(let o=0;o<s;o++){t="";for(let e=0;e<l.length;e++)o&Math.pow(2,e)&&(t+=l[e]);""!==t&&e.push(t)}console.log(e.join("\n"))})("dog"))})();
